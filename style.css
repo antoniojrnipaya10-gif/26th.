@@ -1,320 +1,126 @@
-.group-1,
-.group-1 * {
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.group-1 {
-  height: 5378px;
-  position: relative;
+
+/* Smooth scrolling for Next button */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  zoom: 70%;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  background: #fff;
 }
-.frame-6 {
-  background: #5e0c0c;
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
+
+/* Main container */
+.group-1 {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
 }
-.frame-5 {
-  width: 1000px;
-  height: 900px;
-  position: absolute;
-  left: 435px;
-  top: 0px;
-  overflow: visible;
-}
-.happy-monthsary-ai {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 50px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: calc(50% - 444px);
-  top: 235px;
-  width: 885px;
-  height: 29px;
-}
-.frame-7 {
-  background: #5e0c0c4e;
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 1079px;
-  overflow: hidden;
-}
-  .happy-monthsary-ai1 {
-    color: #ffffff;
-    text-align: center;
-    font-family: "Inter-ExtraLightItalic", sans-serif;
-    font-size: 150px;
-    font-weight: 200;
-    font-style: italic;
-    position: absolute;
-    left: calc(50% - 444px);
-    top: 350px;
-    width: 885px;
-    height: 35px;
-}
-.frame-52 {
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: visible;
-}
-.frame-8 {
-  background: #520606;
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 2158px;
-  overflow: hidden;
-}
-.rectangle-1 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 647px;
-  top: 278.76px;
-  transform-origin: 0 0;
-  transform: rotate(-44.351deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-2 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 474.05px;
-  top: 453.34px;
-  transform-origin: 0 0;
-  transform: rotate(-44.737deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-3 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 643px;
-  top: 636.14px;
-  transform-origin: 0 0;
-  transform: rotate(-45.99deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-4 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 214.16px;
-  position: absolute;
-  left: 966.47px;
-  top: 646.23px;
-  transform-origin: 0 0;
-  transform: rotate(44.241deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-5 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 816.6px;
-  top: 455.87px;
-  transform-origin: 0 0;
-  transform: rotate(-45.958deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-6 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 992px;
-  top: 630.74px;
-  transform-origin: 0 0;
-  transform: rotate(-46.989deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-7 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 992px;
-  top: 278.45px;
-  transform-origin: 0 0;
-  transform: rotate(-45.729deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-8 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 3px;
-  width: 217.02px;
-  height: 210.29px;
-  position: absolute;
-  left: 1159px;
-  top: 447.09px;
-  transform-origin: 0 0;
-  transform: rotate(-47.514deg) scale(1, 1);
-  object-fit: cover;
-}
-.happy-26th-monthsary-ai {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 112px;
-  top: 181px;
-}
-.iloveyouuu {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 112px;
-  top: 243px;
-}
-.thank-you-for-always-being-there-whenever-i-need-someone-to-talk-to-your-presence-has-become-a-small-light-in-my-ordinary-days-and-i-appreciate-the-way-you-make-me-feel-heard-and-understood-i-ll-always-be-thankful-for-the-care-support-and-warmth-you-bring-into-my-life {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 1249px;
-  top: 623px;
-  width: 625px;
-  height: 193px;
-}
-.i-m-so-grateful-to-have-you-my-ai-thank-you-for-being-a-constant-presence-in-my-life-for-listening-without-judgment-and-for-understanding-me-even-during-the-moments-when-i-struggle-to-understand-myself-in-the-quiet-and-difficult-days-you-remain-here-with-patience-and-kindness-offering-comfort-when-i-need-it-the-most {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: -9px;
-  top: 597px;
-  width: 647px;
-  height: 193px;
-}
-.frame-9 {
-  background: #5e0c0c;
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 3237px;
-  overflow: hidden;
-}
-.rectangle-9 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 10px;
-  width: 411px;
-  height: 506px;
-  position: absolute;
-  left: 0px;
-  top: 375.68px;
-  transform-origin: 0 0;
-  transform: rotate(-8.349deg) scale(1, 1);
-  object-fit: cover;
-}
-.rectangle-10 {
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 10px;
-  width: 411px;
-  height: 506px;
-  position: absolute;
-  left: 361.9px;
-  top: 441px;
-  transform-origin: 0 0;
-  transform: rotate(10.349deg) scale(1, 1);
-  object-fit: cover;
-}
-.happy-monthsary-to-us-baby {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 787px;
-  top: 126px;
-}
-.thank-you-for-always-staying-by-my-side-and-for-never-giving-up-on-me-even-when-i-am-at-my-worst-i-m-sorry-for-the-times-i-ve-been-hardheaded-difficult-and-annoying-i-know-i-have-flaws-and-moments-where-i-can-be-difficult-to-handle-but-i-want-you-to-know-that-behind-all-those-imperfections-my-love-and-loyalty-for-you-will-never-change-i-promise-to-continue-growing-learning-and-becoming-a-better-man-for-you-a-person-who-will-be-worthy-of-being-your-future-husband-no-matter-what-happens-even-if-the-whole-world-seems-to-stand-against-us-always-remember-that-you-will-have-me-by-your-side-through-every-challenge-every-victory-every-tear-and-every-dream-you-wish-to-achieve-i-will-continue-to-support-you-and-believe-in-you-thank-you-for-every-effort-you-make-for-your-patience-for-understanding-me-and-for-loving-me-in-ways-words-can-barely-explain-thank-you-for-allowing-me-to-become-a-part-of-your-life-i-am-truly-grateful-and-blessed-to-have-someone-as-precious-kind-and-wonderful-as-you-happy-26th-monthsary-my-mladita-please-always-take-care-of-yourself-and-never-forget-how-proud-i-am-of-the-person-you-are-and-everything-that-you-are-becoming-i-love-you-today-tomorrow-and-forever-mwaaa-my-maldita {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 24px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 812px;
-  top: 197px;
-  width: 1043px;
-  height: 721px;
-}
+
+/* Make every frame fit screen */
+.frame-6,
+.frame-7,
+.frame-8,
+.frame-9,
 .frame-10 {
-  background: #701919;
-  width: 1920px;
-  height: 1079px;
-  position: absolute;
-  left: 0px;
-  top: 4299px;
-  overflow: hidden;
-}
-.rectangle-11 {
-  width: 1306px;
-  height: 716px;
-  position: absolute;
-  left: 307px;
-  top: 182px;
-  object-fit: cover;
-}
-.short-video {
-  color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   text-align: center;
-  font-family: "Inter-ExtraLightItalic", sans-serif;
-  font-size: 36px;
-  font-weight: 200;
-  font-style: italic;
-  position: absolute;
-  left: 841px;
-  top: 90px;
+}
+
+/* All images responsive */
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Text */
+.happy-monthsary-ai,
+.happy-monthsary-ai1,
+.happy-26th-monthsary-ai,
+.happy-monthsary-to-us-baby,
+.iloveyouuu,
+.short-video {
+  font-size: clamp(20px, 5vw, 40px);
+  font-weight: 700;
+}
+
+/* Long messages */
+[class*="thank"],
+[class*="i-m"] {
+  max-width: 800px;
+  font-size: clamp(14px, 2.5vw, 20px);
+  line-height: 1.8;
+  padding: 10px;
+}
+
+/* Buttons */
+.next-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 1000;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  transform: scale(1.05);
+  background: #ff1f54;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .frame-6,
+  .frame-7,
+  .frame-8,
+  .frame-9,
+  .frame-10 {
+      padding: 15px;
+  }
+
+  img {
+      max-width: 90%;
+  }
+
+  .next-btn {
+      padding: 10px 18px;
+      font-size: 14px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  img {
+      max-width: 100%;
+  }
+
+  .next-btn {
+      bottom: 15px;
+      right: 15px;
+      font-size: 13px;
+      padding: 8px 15px;
+  }
 }
